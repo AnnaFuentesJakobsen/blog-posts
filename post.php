@@ -21,7 +21,7 @@
 		mysqli_query($db, $sql);
 
 		header("Location: index.php");
-
+		exit;
 	}
 
 ?>
